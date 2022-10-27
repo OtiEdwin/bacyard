@@ -11,6 +11,46 @@
   justify-content: center;
   align-items: center;
 }
+/* prmtves */
+
+.r-1{width: 10%;}
+.r-2{width: 20%;}
+.r-3{width: 30%;}
+.r-4{width: 40%;}
+.r-5{width: 50%;}
+.r-6{width: 60%;}
+.r-7{width: 70%;}
+
+.flx{display: flex;}
+.row{flex-direction: row}
+.col{flex-direction: column;}
+
+.mc{
+  margin: auto;
+  width: -webkit-fill-available;
+}
+.m1{margin: 1rem}
+.tl{text-align: left}
+.tc{text-align: center}
+.tr{text-align: right}
+.absolute{position: absolute}
+.relative{  position: relative}
+.tb{font-weight: 700}
+.space-btw{justify-content: space-between !important}
+
+/* others */
+.content{
+  font-size: 1.2rem;
+}
+.pill{
+  background-color: #0070f3;
+}
+.holopill, .pill{
+  border: 2px solid #0070f3;
+  border-radius: 5px;
+  padding: .5rem 2rem;
+  margin: 1rem;
+}
 
 .footer {
   display: flex;
@@ -126,4 +166,5 @@
   .logo img {
     filter: invert(1);
   }
+  .pill{color: white;}
 }

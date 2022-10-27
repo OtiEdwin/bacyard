@@ -1,9 +1,17 @@
-html,
+@tailwindcss base;
+@tailwindcss compoments;
+@tailwindcss utilities;
+
+
+/* html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+:root{
+  --primary-color: #0070f3;
 }
 
 a {
@@ -23,4 +31,8 @@ a {
     color: white;
     background: black;
   }
-}
+  a{
+    color: var(--primary-color);
+  }
+  .pill{color: white;}
+} */

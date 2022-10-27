@@ -15,10 +15,20 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="/about">Yard</a>
         </h1>
-      </main>y
+        <p className={styles.content}>
+          Bringing web hosting to your door step
+        </p>
+        <div className = 'text'>
+          <a className={styles.holopill}>Get started</a>
+          <a className={styles.pill}>Sign in</a>          
+        </div>
 
-      <footer className={styles.footer}>
+      </main>
+
+      <footer className='text-align'>
       </footer>
     </div>
   )
 }
+
+
