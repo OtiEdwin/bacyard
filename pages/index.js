@@ -18,8 +18,8 @@ export default function Home() {
         <p className={styles.content}>
           Bringing web hosting to your door step
         </p>
-        <div className = 'text'>
-          <a className={styles.holopill}>Get started</a>
+        <div className = 'text-center'>
+          <a className='text'>Get started</a>
           <a className={styles.pill}>Sign in</a>          
         </div>
 

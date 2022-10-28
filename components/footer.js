@@ -1,7 +1,7 @@
 function Footer() {
     return(
         <>
-            <div></div>
+            <div className="text"></div>
             <ul>
                 <li>Sign up</li>
                 <li>About</li>
