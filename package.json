@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "craco dev",
-    "build": "craco build",
-    "start": "craco start",
-    "lint": "craco lint"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@craco/craco": "^6.4.5",
