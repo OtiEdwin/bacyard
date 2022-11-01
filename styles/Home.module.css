@@ -1,4 +1,8 @@
-.container {
+@tailwindcss base;
+@tailwindcss compoments;
+@tailwindcss utilities;
+
+/* .container {
   padding: 0 2rem;
 }
 
@@ -13,7 +17,7 @@
 }
 /* prmtves */
 
-.r-1{width: 10%;}
+/* .r-1{width: 10%;}
 .r-2{width: 20%;}
 .r-3{width: 30%;}
 .r-4{width: 40%;}
@@ -36,10 +40,10 @@
 .absolute{position: absolute}
 .relative{  position: relative}
 .tb{font-weight: 700}
-.space-btw{justify-content: space-between !important}
+.space-btw{justify-content: space-between !important} */
 
 /* others */
-.content{
+/* .content{
   font-size: 1.2rem;
 }
 .pill{
@@ -167,4 +171,4 @@
     filter: invert(1);
   }
   .pill{color: white;}
-}
+}  */

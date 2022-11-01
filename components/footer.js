@@ -1,12 +1,4 @@
 function Footer() {
-    return(
-        <div className="min-w-full flex flex-col">
-            <div></div>
-            <ul>
-                <li>Sign up</li>
-                <li>About</li>
-                <li>Checkout</li>
-            </ul>
-        </div>
-    )
+    return <h1>footer text</h1>
 }
+export default Footer
