@@ -4,19 +4,19 @@ import {faSearch} from "@fortawesome/free-solid-svg-icons";
 export default function Hero() {
   return (
       <section className="m-a bg-teal-700  h-screen flex flex-col justify-start m-auto text-center">
-         <div class="h-20py-10">
-            <div class="max-w-md mx-auto rounded-lg overflow-hidden md:max-w-xl">
-               <div class="md:flex">
-                  <div class="w-full p-3">
-                     <div class="relative">
+         <div className="h-20py-10">
+            <div className="max-w-md mx-auto rounded-lg overflow-hidden md:max-w-xl">
+               <div className="md:flex">
+                  <div className="w-full p-3">
+                     <div className="relative">
                         <fontAwesomeIcon
                            icon={faSearch}
                            style={{ fontSize: 100, color: "blue" }}
-                           class="absolute text-gray-100 top-5 left-4"
+                           className="absolute text-gray-100 top-5 left-4"
                         />
 
                         <input type="text" placeholder="Search" className ="bg-white shadow-sm border-teal-500 border h-14 w-full px-12 rounded-lg focus:outline-none hover:cursor-pointer" name=""/>
-                        <span class="absolute top-4 right-5 border-l pl-4"><i class="fa fa-microphone text-gray-500 hover:text-green-500 hover:cursor-pointer"></i></span>
+                        <span className="absolute top-4 right-5 border-l pl-4"><i className="fa fa-microphone text-gray-500 hover:text-green-500 hover:cursor-pointer"></i></span>
                      </div>                  
                   </div>
                </div>

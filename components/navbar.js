@@ -2,7 +2,7 @@
 
 function Navbar() {
     return(
-        <nav className="bg-teal-700 navbar navbar-expand-lg py-6 relative flex items-center w-full justify-between">
+        <nav className="bg-transparent navbar navbar-expand-lg py-6 relative flex items-center w-full justify-between">
             <div className="px-6 w-full flex flex-wrap items-center justify-between">
                 <div className="flex items-center">
                     <button
