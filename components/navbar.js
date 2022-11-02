@@ -2,7 +2,7 @@
 
 function Navbar() {
     return(
-        <nav className="bg-transparent navbar navbar-expand-lg py-6 relative flex items-center w-full justify-between">
+        <nav className="bg-neutral-100 navbar navbar-expand-lg py-6 relative flex items-center w-full justify-between">
             <div className="px-6 w-full flex flex-wrap items-center justify-between">
                 <div className="flex items-center">
                     <button
@@ -16,7 +16,7 @@ function Navbar() {
                     >
                         YARD
                     </button>
-                    <a className="navbar-brand text-gray-50 text-xl font-extrabold" href="#!">
+                    <a className="navbar-brand text-teal-700 text-xl font-extrabold" href="#!">
                         YARD
                     </a>
                 </div>
@@ -34,8 +34,8 @@ function Navbar() {
                     </ul>
                 </div>
                 <div className="flex items-center lg:ml-auto">
-                    <button type="button" className="inline-block px-6 py-2.5 mr-2 bg-gray-50 text-teal-600 font-medium text-base leading-tight uppercase rounded hover:text-teal-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light">Login</button>
-                    <button type="button" className="inline-block px-6 py-2.5 bg-teal-500 text-white font-medium text-base leading-tight uppercase rounded shadow-md hover:bg-teal-600 hover:shadow-lg focus:bg-teal-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-teal-800 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light">Sign up</button>
+                    <button type="button" className="inline-block px-8 py-2.5 mr-2 bg-transparent border-2 border-teal-600 text-teal-600 font-medium text-base leading-tight rounded hover:text-teal-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light">Login</button>
+                    <button type="button" className="inline-block px-8 py-2.5 border-2 border-teal-600 bg-teal-600 text-white font-medium text-base leading-tight rounded shadow-md hover:bg-teal-700 hover:border-teal-700 hover:shadow-lg focus:bg-teal-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-teal-800 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light">Sign up</button>
                 </div>
             </div>
         </nav>
