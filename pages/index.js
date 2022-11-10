@@ -1,10 +1,8 @@
 import Head from 'next/head'
-import Layout from "../components/layout";
 import Hero from "./heroSection";
 
 export default function Home() {
   return (
-    <Layout>
       <div>
         <Head>
           <title>Create Next App</title>
@@ -13,7 +11,6 @@ export default function Home() {
         </Head>
         <Hero/>
       </div>      
-    </Layout>
   )
 }
 
