@@ -30,7 +30,7 @@ function Hero() {
                <img src="assets/undraw_server_cluster.svg" className=" w-60 h-60 mx-0 my-4"/>            
             </div>
             <div>
-               <h1 className="text-3xl text-gray-800 md:text-4xl xl:text-4xl font-bold tracking-tight mb-12 text-start"><span className="text-teal-600">YARD</span><hr/> Bringing Web Hosting to your doorstep <br /><span className="text-teal-600">to you developers</span></h1>
+               <h1 className="text-3xl text-gray-800 md:text-4xl xl:text-4xl font-bold tracking-tight mb-4 text-start"><span className="text-teal-600">YARD</span><hr/> Bringing Web Hosting to your doorstep <br /><span className="text-teal-600">to you developers</span></h1>
                <div className="flex flex-row justify-start">
                   <Link href="/login">
                      <a className="inline-block px-7 py-3 bg-transparent border-2 border-teal-600 text-teal-600 font-medium text-sm leading-snug rounded hover:text-teal-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out text-start  " data-mdb-ripple="true" data-mdb-ripple-color="light" role="button">Learn more</a>               
