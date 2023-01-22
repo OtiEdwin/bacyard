@@ -1,24 +1,23 @@
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 function Navbar() {
+    const [ toggleState, setToggleState ] = useState({ toggle : 'none', anti_toggle : 'flex' })  
+    //   
+
+    useEffect(()=>{
+        if ( window.innerWidth <= 500){
+            setToggleState({ toggle : 'flex', anti_toggle : 'none' })
+        }
+    })
     return(
         <>
             <nav className="navbar navbar-expand-lg py-4 relative flex items-center w-full justify-between">
                 <div className="px-6 w-full flex flex-wrap items-center justify-between">
                     <div className="flex items-center">
-                        <button
-                            className="navbar-toggler border-0 py-3 leading-none text-xl bg-transparent text-gray-600 hover:text-gray-700 focus:text-gray-700 transition-shadow duration-150 ease-in-out mr-2"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContentY"
-                            aria-controls="navbarSupportedContentY"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation"
-                        >
-                            <svg className="w-6 h-6 text-teal-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" /></svg>
-                        </button>
+                        <svg style={{display:`${toggleState.toggle}`}} className="w-6 h-6 text-teal-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" /></svg>
                         <Link href="/">
-                            <a className="navbar-brand text-teal-700 smx:hidden text-xl font-extrabold" >
+                            <a style={{display:`${toggleState.anti_toggle}`}} className="navbar-brand text-teal-700 smx:hidden text-xl font-extrabold" >
                                 YARD
                             </a>                        
                         </Link>

@@ -1,3 +1,10 @@
+body{
+   font-family: 'Courier New', Courier, monospace;
+   /* font-family: 'Comfortaa', cursive; */
+   font-family: 'Lexend Deca', sans-serif;
+   /* font-family: 'PT Mono', monospace; */
+}
+
 @tailwindcss base;
 @tailwindcss compoments;
 @tailwindcss utilities;
