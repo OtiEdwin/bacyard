@@ -5,7 +5,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css"; // import Font Awesome CS
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 
-import Layout from "../components/layout";
+import Layout from "./components/layout";
 
 
 function MyApp({ Component, pageProps }) {

@@ -4,9 +4,9 @@ import {faRightToBracket} from "@fortawesome/free-solid-svg-icons";
 function Login() {
   return (
     <>
-      <section className="absolute w-full h-full bg-neutral-100">
+      <section className="w-full h-full bg-neutral-100">
         <div
-          className="absolute top-0 w-full h-full"
+          className="top-0 w-full h-full"
           style={{
             // backgroundImage: "url(" + require("assets/img/register_bg_2.png").default + ")",
             backgroundSize: "100%",

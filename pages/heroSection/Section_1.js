@@ -3,9 +3,9 @@ import {faSearch} from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
 
-function Hero() {
+function Section_1() {
   return (
-      <section className="m-a flex flex-col justify-start m-auto text-center">
+      <section className="m-a h-4/5 flex flex-col justify-start m-auto text-center">
          <div className="h-15 py-0">
             <div className="max-w-md mx-auto rounded-lg overflow-hidden md:max-w-xl">
                <div className="md:flex">
@@ -24,7 +24,7 @@ function Hero() {
                </div>
             </div>
          </div>
-         <div className=" flex flex-col text-center m-auto justify-evenly px-2 max-w-[50%]">
+         <div className=" flex flex-col text-center m-auto justify-evenly px-2">
             <div className="flex flex-row w-full justify-center">
                <img src="assets/undraw_remotely.svg" className=" w-60 h-60 mx-0 my-4"/>
                <img src="assets/undraw_server_cluster.svg" className=" w-60 h-60 mx-0 my-4"/>            
@@ -33,11 +33,11 @@ function Hero() {
                <h1 className="text-3xl text-gray-800 md:text-4xl xl:text-4xl font-bold tracking-tight mb-4 text-start"><span className="text-teal-600">YARD</span><hr/> Bringing Web Hosting to your doorstep <br /><span className="text-teal-600">to you developers</span></h1>
                <div className="flex flex-row justify-start">
                   <Link href="/login">
-                     <a className="inline-block px-7 py-3 bg-transparent border-2 border-teal-600 text-teal-600 font-medium text-sm leading-snug rounded hover:text-teal-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out text-start  " data-mdb-ripple="true" data-mdb-ripple-color="light" role="button">Learn more</a>               
+                     <a className="inline-block px-7 py-3 bg-transparent border-2 border-teal-600 text-teal-600 font-medium text-sm leading-snug rounded hover:text-teal-700 hover:bg-gray-100 hover:shadow-2xl hover:-translate-y-0.5 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out text-start  " data-mdb-ripple="true" data-mdb-ripple-color="light" role="button">Learn more</a>               
                   </Link>
 
                   <Link href = "/signup">
-                     <a className="ml-3 inline-block px-7 py-3 border-2 border-teal-600 bg-teal-600 text-white font-medium text-sm leading-snug rounded shadow-md hover:bg-teal-700 hover:border-teal-700 hover:shadow-lg focus:bg-teal-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-teal-800 active:shadow-lg transition duration-150 ease-in-out text-start" data-mdb-ripple="true" data-mdb-ripple-color="light" role="button">Get started</a>
+                     <a className="ml-3 inline-block px-7 py-3 border-2 border-teal-600 bg-teal-600 text-white font-medium text-sm leading-snug rounded shadow-md hover:bg-teal-700 hover:border-teal-700 hover:shadow-2xl hover:-translate-y-0.5 focus:bg-teal-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-teal-800 active:shadow-lg transition duration-150 ease-in-out text-start" data-mdb-ripple="true" data-mdb-ripple-color="light" role="button">Get started</a>
                   </Link>
                </div>
             </div>
@@ -46,4 +46,4 @@ function Hero() {
       </section>
   )
 }
-export default Hero
+export default Section_1

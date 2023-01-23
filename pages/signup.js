@@ -4,15 +4,7 @@ import {faRightToBracket} from "@fortawesome/free-solid-svg-icons";
 function Signup() {
   return (
     <>
-      <section className="absolute w-full h-full bg-neutral-100">
-        <div
-          className="absolute top-0 w-full h-full"
-          style={{
-            // backgroundImage: "url(" + require("assets/img/register_bg_2.png").default + ")",
-            backgroundSize: "100%",
-            backgroundRepeat: "no-repeat"
-          }}
-        ></div>
+      <section className="w-full h-full bg-neutral-100">
         <div className="container mx-auto px-4 h-full">
           <div className="flex content-center items-center justify-center h-full">
             <div className="w-full lg:w-5/12 px-4">
