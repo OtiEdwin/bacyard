@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Section_1 from "./heroSection/Section_1";
-import Section_2 from "./heroSection/Section_2";
+import Section_1 from "./sections/Section_1";
+import Section_2 from "./sections/Section_2";
 
 export default function Home() {
   return (

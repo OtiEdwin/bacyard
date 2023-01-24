@@ -5,7 +5,12 @@ import Link from "next/link";
 
 function Section_1() {
   return (
-      <section className="m-a h-4/5 flex flex-col justify-start m-auto text-center">
+      <section className="pb-20 h-4/5 w-full flex flex-col justify-start m-auto text-center area relative">
+         <ul className="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+         </ul>
          <div className="h-15 py-0">
             <div className="max-w-md mx-auto rounded-lg overflow-hidden md:max-w-xl">
                <div className="md:flex">
@@ -24,7 +29,7 @@ function Section_1() {
                </div>
             </div>
          </div>
-         <div className=" flex flex-col text-center m-auto justify-evenly px-2">
+         <div style={{ zIndex: '1' }} className="flex flex-col text-center m-auto justify-evenly px-2">
             <div className="flex flex-row w-full justify-center">
                <img src="assets/undraw_remotely.svg" className=" w-60 h-60 mx-0 my-4"/>
                <img src="assets/undraw_server_cluster.svg" className=" w-60 h-60 mx-0 my-4"/>            

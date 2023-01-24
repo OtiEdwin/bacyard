@@ -5,6 +5,71 @@ body{
    /* font-family: 'PT Mono', monospace; */
 }
 
+.area{
+}
+
+.circles{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+}
+
+.circles li{
+   position: absolute;
+   display: block;
+   list-style: none;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   filter: blur(80px);
+   opacity: .3;
+   z-index: 0;
+   animation: animate 25s linear infinite;
+   bottom: -150px;
+   
+}
+
+.circles li:nth-child(1){
+   left: 10%;
+   bottom: 0;
+   width: 200px;
+   height: 120px;
+   background: rgb(133, 4, 255);
+   animation-delay: 2s;
+   animation-duration: 12s;
+}
+
+.circles li:nth-child(2){
+   left: 0%;
+   top: 0%;
+   width: 200px;
+   height: 200px;
+   background: green;
+   animation-delay: 4s;
+}
+
+.circles li:nth-child(3){
+   right: 0%;
+   width: 400px;
+   height: 400px;
+   background: rgba(255, 185, 54, 0.952);
+   animation-delay: 0s;
+   animation-duration: 18s;
+}
+
+@keyframes animate {
+
+   0%{
+   }
+
+   100%{
+   }
+
+}
+
 @tailwindcss base;
 @tailwindcss compoments;
 @tailwindcss utilities;
