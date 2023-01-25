@@ -6,7 +6,7 @@ function Signup() {
     <>
       <section className="w-full h-full bg-neutral-100">
         <div className="container mx-auto px-4 h-full">
-          <div className="flex content-center items-center justify-center h-full">
+          <div className="flex content-center items-center justify-center h-screen pt-8">
             <div className="w-full lg:w-5/12 px-4">
               <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200 border-2 border-teal-500">
                 <div className="flex-auto px-4 lg:px-10 py-3" >
@@ -89,7 +89,6 @@ function Signup() {
                       </button>
                     </div>
                   </form>
-                  <hr className="mt-6 border-b-1 border-gray-400" />
                 </div>
 
                 <div className="rounded-t mb-0 px-6 py-4">

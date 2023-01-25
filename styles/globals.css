@@ -25,30 +25,21 @@ body{
    height: 20px;
    border-radius: 50%;
    filter: blur(80px);
-   opacity: .3;
+   opacity: .5;
    z-index: 0;
-   animation: animate 25s linear infinite;
+   animation: animate 10s linear infinite;
    bottom: -150px;
    
 }
 
-.circles li:nth-child(1){
-   left: 10%;
-   bottom: 0;
-   width: 200px;
-   height: 120px;
-   background: rgb(133, 4, 255);
-   animation-delay: 2s;
-   animation-duration: 12s;
-}
 
 .circles li:nth-child(2){
    left: 0%;
-   top: 0%;
+   top: 10%;
    width: 200px;
    height: 200px;
    background: green;
-   animation-delay: 4s;
+   animation-delay: 10s;
 }
 
 .circles li:nth-child(3){
@@ -63,9 +54,15 @@ body{
 @keyframes animate {
 
    0%{
+      transform: translate(0px, 0px);
+   }
+
+   50%{
+      transform: translate(100px, 80px);
    }
 
    100%{
+      transform: translate(0px, 0px);
    }
 
 }

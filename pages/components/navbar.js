@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 function Navbar() {
     const [ toggleState, setToggleState ] = useState({ toggle : 'none', anti_toggle : 'flex' })  
-    //   
+    const [isScrolling, setIsScrolling] = useState(false);
 
     useEffect(()=>{
         if ( window.innerWidth <= 500){
@@ -12,8 +12,8 @@ function Navbar() {
     })
     return(
         <>
-            <nav className="navbar navbar-expand-lg py-2 relative flex items-center w-full justify-between h-1/6">
-                <div className="px-6 w-full flex flex-wrap items-center justify-between">
+            <nav onScroll={() => setIsScrolling(true)} className={ `${ isScrolling ? 'scrolling' : '' } backdrop-blur-sm navbar navbar-expand-lg py-2 flex items-center w-full justify-between fixed z-20`}>
+                <div className="px-6 w-full flex flex-wrap items-center justify-between z-20">
                     <div className="flex items-center">
                         <svg style={{display:`${toggleState.toggle}`}} className="w-6 h-6 text-teal-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" /></svg>
                         <Link href="/">
@@ -50,7 +50,7 @@ function Navbar() {
                         </Link>
                     </div>
                 </div>
-                <h r/>
+                <hr/>
             </nav>
             <hr/>        
         </>

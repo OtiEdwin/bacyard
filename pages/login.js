@@ -14,7 +14,7 @@ function Login() {
           }}
         ></div>
         <div className="container mx-auto px-4 h-full">
-          <div className="flex content-center items-center justify-center h-full">
+          <div className="flex content-center items-center justify-center h-screen">
             <div className="w-full lg:w-5/12 px-4">
               <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200 border-2 border-teal-500">
                 <div className="flex-auto px-4 lg:px-10 py-3" >
@@ -23,7 +23,7 @@ function Login() {
                     {/* <FontAwesomeIcon icon="fa-duotone fa-right-to-bracket" /> */}
                     <FontAwesomeIcon
                            icon={faRightToBracket}
-                           style={{ fontSize: 25}}
+                           style={{ fontSize: 25 }}
                            className="absolute text-teal-400 top-[54%] left-[18%] -translate-y-2/4"
                         />
                   </div>
@@ -76,7 +76,6 @@ function Login() {
                       </button>
                     </div>
                   </form>
-                  <hr className="mt-6 border-b-1 border-gray-400" />
                 </div>
 
 

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Section_1() {
   return (
-      <section className="pb-20 h-4/5 w-full flex flex-col justify-start m-auto text-center area relative">
+      <section className="pt-14 pb-20 h-4/5 w-full flex flex-col justify-start m-auto text-center area relative">
          <ul className="circles">
             <li></li>
             <li></li>
