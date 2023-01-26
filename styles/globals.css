@@ -1,11 +1,5 @@
 body{
-   font-family: 'Courier New', Courier, monospace;
-   /* font-family: 'Comfortaa', cursive; */
    font-family: 'Lexend Deca', sans-serif;
-   /* font-family: 'PT Mono', monospace; */
-}
-
-.area{
 }
 
 .circles{
@@ -24,7 +18,7 @@ body{
    width: 20px;
    height: 20px;
    border-radius: 50%;
-   filter: blur(80px);
+   filter: blur(100px);
    opacity: .5;
    z-index: 0;
    animation: animate 10s linear infinite;
@@ -32,8 +26,7 @@ body{
    
 }
 
-
-.circles li:nth-child(2){
+.circles li:nth-child(1){
    left: 0%;
    top: 10%;
    width: 200px;
@@ -42,7 +35,7 @@ body{
    animation-delay: 10s;
 }
 
-.circles li:nth-child(3){
+.circles li:nth-child(2){
    right: 0%;
    width: 400px;
    height: 400px;
@@ -58,7 +51,7 @@ body{
    }
 
    50%{
-      transform: translate(100px, 80px);
+      transform: translate(120px, 120px);
    }
 
    100%{
