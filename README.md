@@ -2,7 +2,7 @@
 
 An ongoing web hosting service project
 
-### HERE IS THE SCRIPT I TO START THE DEV SERVER:
+### The script used to start the server:
 
 ```bash
 npm run dev
