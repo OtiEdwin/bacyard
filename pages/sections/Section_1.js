@@ -3,9 +3,6 @@ import {faSearch} from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import RingOne from "../components/section_1_components/ring_1";
 import RingTwo from "../components/section_1_components/ring_2";
-import RingThree from "../components/section_1_components/ring_3";
-import RingFour from "../components/section_1_components/ring_4";
-
 
 function Section_1() {
   return (
@@ -53,8 +50,6 @@ function Section_1() {
          </div>
          <RingOne/>
          <RingTwo/>
-         {/* <RingThree/>
-         <RingFour/> */}
       </section>
   )
 }

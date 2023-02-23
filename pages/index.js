@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Section_1 from "./sections/Section_1";
 import Section_2 from "./sections/Section_2";
+import Section_3 from "./sections/Section_3";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         </Head>
         <Section_1/>
         <Section_2/>
+        <Section_3/>
       </>      
   )
 }

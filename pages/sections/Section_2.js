@@ -2,7 +2,7 @@ import PriceCard from "../components/section_2_components/PriceCard"
 import Title from "../components/component_chunks/chunks";
 
 function Section_2() {
-  let blueprint = [
+   let blueprint = [
     {
       shade: 'rgb(45 212 191)',
       price: 'Free'

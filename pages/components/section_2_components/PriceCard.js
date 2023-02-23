@@ -4,7 +4,7 @@ function PriceCard({ shade, price }) {
    let desc = "the description of the plan", items = <><li>this is the item</li><li>this is the item</li></>
    return (
       <>
-         <div className={ `m-auto h-96 w-72 bg-white-400 rounded-md shadow-md hover:shadow-emerald-200 hover:shadow-lg hover:scale-105 transition-all flex flex-col justify-between` }>
+         <div className={ `m-auto h-96 w-72 bg-white-400 rounded-md shadow-md hover:shadow-emerald-100 hover:shadow-lg hover:scale-105 transition-all flex flex-col justify-between` }>
             <div style = {{ backgroundColor: shade }} className={`h-1/4 w-full flex justify-center`}>
                <h1 className="text-5xl text-white m-auto md:text-5xl xl:text-5xl font-thin tracking-tight mb-4 text-center">{price}</h1>
             </div>
